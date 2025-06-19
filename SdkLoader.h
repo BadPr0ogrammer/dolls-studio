@@ -5,8 +5,6 @@
 #include <vtkSmartPointer.h>
 #include <vtkPolyData.h>
 
-#include <vector>
-
 class SdkLoader
 {
 public:

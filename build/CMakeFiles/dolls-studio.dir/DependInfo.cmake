@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "dolls-studio_autogen/timestamp" "custom" "dolls-studio_autogen/deps"
+  "/home/user/dolls-studio/ModelAc.cpp" "CMakeFiles/dolls-studio.dir/ModelAc.cpp.o" "gcc" "CMakeFiles/dolls-studio.dir/ModelAc.cpp.o.d"
   "/home/user/dolls-studio/MyVtkItem.cpp" "CMakeFiles/dolls-studio.dir/MyVtkItem.cpp.o" "gcc" "CMakeFiles/dolls-studio.dir/MyVtkItem.cpp.o.d"
   "/home/user/dolls-studio/SdkLoader.cpp" "CMakeFiles/dolls-studio.dir/SdkLoader.cpp.o" "gcc" "CMakeFiles/dolls-studio.dir/SdkLoader.cpp.o.d"
   "/home/user/dolls-studio/build/dolls-studio_autogen/EWIEGA46WW/qrc_qml.cpp" "CMakeFiles/dolls-studio.dir/dolls-studio_autogen/EWIEGA46WW/qrc_qml.cpp.o" "gcc" "CMakeFiles/dolls-studio.dir/dolls-studio_autogen/EWIEGA46WW/qrc_qml.cpp.o.d"

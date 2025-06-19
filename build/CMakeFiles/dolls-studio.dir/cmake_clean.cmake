@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/dolls-studio_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/dolls-studio_autogen.dir/ParseCache.txt"
   "dolls-studio_autogen"
+  "CMakeFiles/dolls-studio.dir/ModelAc.cpp.o"
+  "CMakeFiles/dolls-studio.dir/ModelAc.cpp.o.d"
   "CMakeFiles/dolls-studio.dir/MyVtkItem.cpp.o"
   "CMakeFiles/dolls-studio.dir/MyVtkItem.cpp.o.d"
   "CMakeFiles/dolls-studio.dir/SdkLoader.cpp.o"

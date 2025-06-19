@@ -29,6 +29,8 @@ set(PROJECT_SOURCES
     SdkLoader.h
     MyVtkItem.cpp
     MyVtkItem.h
+    ModelAc.cpp
+    ModelAc.h
     qml.qrc)
 
 qt_add_executable(${MYNAME}
@@ -52,4 +54,3 @@ install(TARGETS ${MYNAME}
     BUNDLE DESTINATION .
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR} )
-

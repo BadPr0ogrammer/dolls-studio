@@ -1,9 +1,14 @@
-#include <QtQml/QQmlApplicationEngine>
-#include <QtQuick/QQuickWindow>
-#include <QtGui/QGuiApplication>
-#include <QtGui/QSurfaceFormat>
+#include <QQmlApplicationEngine>
+#include <QQuickWindow>
+#include <QGuiApplication>
+#include <QSurfaceFormat>
+#include <QQmlContext>
+#include <QQuickVTKItem.h>
 
 #include "MyVtkItem.h"
+#include "ModelAc.h"
+
+extern MyVtkItem *myVtkItem;
 
 int main(int argc, char* argv[])
 {
@@ -16,11 +21,17 @@ int main(int argc, char* argv[])
     QGuiApplication app(argc, argv);
 
     qmlRegisterType<MyVtkItem>("MyModule", 1, 0, "MyVtkItem");
-
     QQmlApplicationEngine engine;
+    ModelAc model;
+    engine.rootContext()->setContextProperty("ModelAc", &model);
+
     engine.load(QUrl(QStringLiteral("qrc:/main.qml")));
     if (engine.rootObjects().isEmpty())
         return -1;
+    QObject *vtk = engine.rootObjects()[0]->findChild<QObject*>("myVtkItem");
+    if (!vtk)
+        return -1;
+    model._vtkItem = (MyVtkItem *)vtk;
 
     return app.exec();
 }

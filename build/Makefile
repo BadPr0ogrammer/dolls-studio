@@ -200,6 +200,30 @@ dolls-studio_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dolls-studio_autogen.dir/build.make CMakeFiles/dolls-studio_autogen.dir/build
 .PHONY : dolls-studio_autogen/fast
 
+ModelAc.o: ModelAc.cpp.o
+.PHONY : ModelAc.o
+
+# target to build an object file
+ModelAc.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dolls-studio.dir/build.make CMakeFiles/dolls-studio.dir/ModelAc.cpp.o
+.PHONY : ModelAc.cpp.o
+
+ModelAc.i: ModelAc.cpp.i
+.PHONY : ModelAc.i
+
+# target to preprocess a source file
+ModelAc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dolls-studio.dir/build.make CMakeFiles/dolls-studio.dir/ModelAc.cpp.i
+.PHONY : ModelAc.cpp.i
+
+ModelAc.s: ModelAc.cpp.s
+.PHONY : ModelAc.s
+
+# target to generate assembly for a file
+ModelAc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dolls-studio.dir/build.make CMakeFiles/dolls-studio.dir/ModelAc.cpp.s
+.PHONY : ModelAc.cpp.s
+
 MyVtkItem.o: MyVtkItem.cpp.o
 .PHONY : MyVtkItem.o
 
@@ -335,6 +359,9 @@ help:
 	@echo "... dolls-studio_autogen"
 	@echo "... dolls-studio_autogen_timestamp_deps"
 	@echo "... dolls-studio"
+	@echo "... ModelAc.o"
+	@echo "... ModelAc.i"
+	@echo "... ModelAc.s"
 	@echo "... MyVtkItem.o"
 	@echo "... MyVtkItem.i"
 	@echo "... MyVtkItem.s"

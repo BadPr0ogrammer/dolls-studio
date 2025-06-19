@@ -1,5 +1,6 @@
 import QtQuick
 import QtQuick.Controls
+import QtQuick.Dialogs
 import MyModule 1.0 as MyModule
 
 ApplicationWindow {
@@ -9,10 +10,11 @@ ApplicationWindow {
   title: qsTr("Dolls Studio")
   header: MenuBar {
     Menu {
+      id: menuOpen
       title: qsTr("&File")
       Action {
         text: qsTr("&Open...")
-        onTriggered: console.log("Open action triggered")
+        onTriggered: fileDialog.open()
       }
       MenuSeparator { }
       Action {
@@ -26,7 +28,14 @@ ApplicationWindow {
     anchors.margins: 12
 
     MyModule.MyVtkItem {
+      objectName: "myVtkItem"
       anchors.fill: parent
     }
+  }
+  FileDialog {
+    id: fileDialog
+    //currentFolder: StandardPaths.standardLocations(StandardPaths.PicturesLocation)[0]
+    onAccepted: { ModelAc.handleFileSelected(selectedFile) }
+
   }
 }
