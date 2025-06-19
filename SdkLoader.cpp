@@ -109,26 +109,26 @@ void SdkLoader::getMeshes(FbxNode* node)
                 if (vertexCount == 3)
                 {
                     vtkSmartPointer<vtkTriangle> triangle = vtkSmartPointer<vtkTriangle>::New();
-                    triangle->GetPointIds()->SetId(0, pointNum + 0);
-                    triangle->GetPointIds()->SetId(1, pointNum + 1);
-                    triangle->GetPointIds()->SetId(2, pointNum + 2);
-                    pointNum += 3;
+                    triangle->GetPointIds()->SetId(0, _pointNum + 0);
+                    triangle->GetPointIds()->SetId(1, _pointNum + 1);
+                    triangle->GetPointIds()->SetId(2, _pointNum + 2);
+                    _pointNum += 3;
                     _cells->InsertNextCell(triangle);
                 } else if (vertexCount == 4)
                 {
                     vtkSmartPointer<vtkQuad> quad = vtkSmartPointer<vtkQuad>::New();
-                    quad->GetPointIds()->SetId(0, pointNum + 0);
-                    quad->GetPointIds()->SetId(1, pointNum + 1);
-                    quad->GetPointIds()->SetId(2, pointNum + 2);
-                    quad->GetPointIds()->SetId(3, pointNum + 3);
-                    pointNum += 4;
+                    quad->GetPointIds()->SetId(0, _pointNum + 0);
+                    quad->GetPointIds()->SetId(1, _pointNum + 1);
+                    quad->GetPointIds()->SetId(2, _pointNum + 2);
+                    quad->GetPointIds()->SetId(3, _pointNum + 3);
+                    _pointNum += 4;
                     _cells->InsertNextCell(quad);
                 } else if (vertexCount > 4)
                 {
                     vtkSmartPointer<vtkTriangleStrip> strip = vtkSmartPointer<vtkTriangleStrip>::New();
                     for (int k = 0; k < vertexCount; k++)
-                        strip->GetPointIds()->SetId(k, pointNum + k);
-                    pointNum += vertexCount;
+                        strip->GetPointIds()->SetId(k, _pointNum + k);
+                    _pointNum += vertexCount;
                     _cells->InsertNextCell(strip);
                 }
 

@@ -23,17 +23,17 @@ MyVtkItem::vtkUserData MyVtkItem::initializeVTK(vtkRenderWindow* renderWindow)
 
     _renderer->AddActor(_actor);
     _renderer->ResetCamera();
-    _renderer->SetBackground(1,1,1);
+    _renderer->SetBackground(0.2,0.2,0.2);
 
     renderWindow->AddRenderer(_renderer);
     renderWindow->SetMultiSamples(16);
-
+    /*
     vtk->boxWidget->SetInteractor(renderWindow->GetInteractor());
     vtk->boxWidget->SetPlaceFactor(1.25);
     vtk->boxWidget->SetProp3D(_actor);
     vtk->boxWidget->PlaceWidget();
     vtk->boxWidget->On();
-
+    */
     //vtkNew<Callback> callback;
     //vtk->boxWidget->AddObserver(vtkCommand::InteractionEvent, callback);
 

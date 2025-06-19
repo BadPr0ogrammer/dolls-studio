@@ -34,8 +34,6 @@ ApplicationWindow {
   }
   FileDialog {
     id: fileDialog
-    //currentFolder: StandardPaths.standardLocations(StandardPaths.PicturesLocation)[0]
     onAccepted: { ModelAc.handleFileSelected(selectedFile) }
-
   }
 }

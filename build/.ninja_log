@@ -1,0 +1,14 @@
+# ninja log v6
+6	37	1750351587759725214	dolls-studio_autogen/timestamp	34459d189d332080
+6	37	1750351587759725214	dolls-studio_autogen/mocs_compilation.cpp	34459d189d332080
+6	37	1750351587759725214	/home/user/dolls-studio/build/dolls-studio_autogen/timestamp	34459d189d332080
+3118	3711	1750351590871752523	dolls-studio	fbe2a0fc5968fbb4
+6	37	1750351587759725214	/home/user/dolls-studio/build/dolls-studio_autogen/mocs_compilation.cpp	34459d189d332080
+32	1462	1750351304272237490	CMakeFiles/dolls-studio.dir/SdkLoader.cpp.o	33e2c3600219c831
+2227	5515	1750351276099990265	CMakeFiles/dolls-studio.dir/dolls-studio_autogen/mocs_compilation.cpp.o	d97d2aa35a10823
+39	55	1750351032865855782	dolls-studio_autogen/EWIEGA46WW/qrc_qml.cpp	b8e8cdabca4cf972
+2227	5762	1750351276100724224	CMakeFiles/dolls-studio.dir/MyVtkItem.cpp.o	337227ed2ec52a63
+39	55	1750351032865855782	/home/user/dolls-studio/build/dolls-studio_autogen/EWIEGA46WW/qrc_qml.cpp	b8e8cdabca4cf972
+56	71	1750351032867855800	CMakeFiles/dolls-studio.dir/dolls-studio_autogen/EWIEGA46WW/qrc_qml.cpp.o	b3a7ed48fb981114
+37	3118	1750351587790725486	CMakeFiles/dolls-studio.dir/main.cpp.o	79cceefeaf5b3bc7
+2227	6710	1750351276100862738	CMakeFiles/dolls-studio.dir/ModelAc.cpp.o	e72838ad75db63af

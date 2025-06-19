@@ -25,7 +25,7 @@ public:
         static Data* New();
         vtkTypeMacro(Data, vtkObject);
 
-        vtkNew<vtkBoxWidget> boxWidget;
+        //vtkNew<vtkBoxWidget> boxWidget;
     };
 
     struct Callback : vtkCommand

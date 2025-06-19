@@ -8,7 +8,7 @@
 #include "MyVtkItem.h"
 #include "ModelAc.h"
 
-extern MyVtkItem *myVtkItem;
+#include <iostream>
 
 int main(int argc, char* argv[])
 {
@@ -26,11 +26,15 @@ int main(int argc, char* argv[])
     engine.rootContext()->setContextProperty("ModelAc", &model);
 
     engine.load(QUrl(QStringLiteral("qrc:/main.qml")));
-    if (engine.rootObjects().isEmpty())
+    if (engine.rootObjects().isEmpty()) {
+        std::cout << "Engine Root Objects is Empty!\n";
         return -1;
+    }
     QObject *vtk = engine.rootObjects()[0]->findChild<QObject*>("myVtkItem");
-    if (!vtk)
+    if (!vtk) {
+        std::cout << "Find Child \"myVtkItem\" is null!\n";
         return -1;
+    }
     model._vtkItem = (MyVtkItem *)vtk;
 
     return app.exec();

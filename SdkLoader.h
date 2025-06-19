@@ -14,7 +14,7 @@ public:
 
     vtkNew<vtkPoints> _points;
     vtkNew<vtkCellArray> _cells;
-    int pointNum = 0;
+    int _pointNum = 0;
 
     SdkLoader();
     ~SdkLoader();
