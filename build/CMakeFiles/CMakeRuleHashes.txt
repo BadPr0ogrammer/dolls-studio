@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+a66f582aacc6c79b82a0f17fb776ec7e dolls-studio_autogen/EWIEGA46WW/qrc_qml.cpp
+197acb9f52961fb49d58bbb9cf9f7032 dolls-studio_autogen/timestamp

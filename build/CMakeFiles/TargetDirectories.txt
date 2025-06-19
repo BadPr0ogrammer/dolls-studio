@@ -1,0 +1,9 @@
+/home/user/dolls-studio/build/CMakeFiles/dolls-studio.dir
+/home/user/dolls-studio/build/CMakeFiles/edit_cache.dir
+/home/user/dolls-studio/build/CMakeFiles/rebuild_cache.dir
+/home/user/dolls-studio/build/CMakeFiles/list_install_components.dir
+/home/user/dolls-studio/build/CMakeFiles/install.dir
+/home/user/dolls-studio/build/CMakeFiles/install/local.dir
+/home/user/dolls-studio/build/CMakeFiles/install/strip.dir
+/home/user/dolls-studio/build/CMakeFiles/dolls-studio_autogen_timestamp_deps.dir
+/home/user/dolls-studio/build/CMakeFiles/dolls-studio_autogen.dir
