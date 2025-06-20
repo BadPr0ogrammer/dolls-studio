@@ -1,4 +1,5 @@
-#pragma once
+#ifndef MYMODEL_H
+#define MYMODEL_H
 
 #include <QObject>
 #include <QMetaType>
@@ -6,7 +7,7 @@
 
 class MyVtkItem;
 
-class ModelAc : public QObject
+class MyModel : public QObject
 {
     Q_OBJECT
 public:
@@ -14,6 +15,6 @@ public:
 public slots:
     void handleFileSelected(const QUrl &fileUrl);
 };
-Q_DECLARE_METATYPE(ModelAc);
+Q_DECLARE_METATYPE(MyModel);
 
-
+#endif // MYMODEL_H

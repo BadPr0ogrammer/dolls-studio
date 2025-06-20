@@ -1,0 +1,996 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "dolls-studio"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"_qt_internal_create_executable",
+			"qt6_add_executable",
+			"qt_add_executable",
+			"install",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"find_package",
+			"find_dependency",
+			"_qt_internal_find_qt_dependencies",
+			"set_property",
+			"_qt_internal_find_third_party_dependencies",
+			"add_compile_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"/usr/lib64/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"CMakeLists.txt",
+			"/usr/lib64/cmake/Qt6Quick/Qt6QuickTargets.cmake",
+			"/usr/lib64/cmake/Qt6Quick/Qt6QuickConfig.cmake",
+			"/usr/lib64/cmake/Qt6/Qt6Config.cmake",
+			"/usr/lib64/cmake/Qt6QmlMeta/Qt6QmlMetaTargets.cmake",
+			"/usr/lib64/cmake/Qt6QmlMeta/Qt6QmlMetaConfig.cmake",
+			"/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
+			"/usr/lib64/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+			"/usr/lib64/cmake/Qt6Quick/Qt6QuickDependencies.cmake",
+			"/usr/lib64/cmake/Qt6Qml/Qt6QmlTargets.cmake",
+			"/usr/lib64/cmake/Qt6Qml/Qt6QmlConfig.cmake",
+			"/usr/local/lib64/cmake/vtk-9.5/VTK-targets.cmake",
+			"/usr/local/lib64/cmake/vtk-9.5/vtk-config.cmake",
+			"/usr/share/cmake/Modules/FindOpenGL.cmake",
+			"/usr/lib64/cmake/Qt6/FindWrapOpenGL.cmake",
+			"/usr/lib64/cmake/Qt6Gui/Qt6GuiDependencies.cmake",
+			"/usr/lib64/cmake/Qt6Gui/Qt6GuiConfig.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 40,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 935,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 639,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 690,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 57,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"file" : 4,
+				"parent" : 7
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 228,
+				"parent" : 8
+			},
+			{
+				"file" : 3,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 65,
+				"parent" : 10
+			},
+			{
+				"file" : 2,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 70,
+				"parent" : 12
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 53,
+				"parent" : 10
+			},
+			{
+				"file" : 9,
+				"parent" : 14
+			},
+			{
+				"command" : 10,
+				"file" : 9,
+				"line" : 45,
+				"parent" : 15
+			},
+			{
+				"command" : 9,
+				"file" : 8,
+				"line" : 137,
+				"parent" : 16
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 17
+			},
+			{
+				"file" : 6,
+				"parent" : 18
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 65,
+				"parent" : 19
+			},
+			{
+				"file" : 5,
+				"parent" : 20
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 70,
+				"parent" : 21
+			},
+			{
+				"command" : 9,
+				"file" : 8,
+				"line" : 137,
+				"parent" : 16
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 23
+			},
+			{
+				"file" : 11,
+				"parent" : 24
+			},
+			{
+				"command" : 7,
+				"file" : 11,
+				"line" : 68,
+				"parent" : 25
+			},
+			{
+				"file" : 10,
+				"parent" : 26
+			},
+			{
+				"command" : 6,
+				"file" : 10,
+				"line" : 70,
+				"parent" : 27
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"file" : 13,
+				"parent" : 29
+			},
+			{
+				"command" : 7,
+				"file" : 13,
+				"line" : 147,
+				"parent" : 30
+			},
+			{
+				"file" : 12,
+				"parent" : 31
+			},
+			{
+				"command" : 6,
+				"file" : 12,
+				"line" : 6056,
+				"parent" : 32
+			},
+			{
+				"command" : 6,
+				"file" : 12,
+				"line" : 3150,
+				"parent" : 32
+			},
+			{
+				"command" : 9,
+				"file" : 8,
+				"line" : 137,
+				"parent" : 16
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 35
+			},
+			{
+				"file" : 17,
+				"parent" : 36
+			},
+			{
+				"command" : 7,
+				"file" : 17,
+				"line" : 53,
+				"parent" : 37
+			},
+			{
+				"file" : 16,
+				"parent" : 38
+			},
+			{
+				"command" : 12,
+				"file" : 16,
+				"line" : 36,
+				"parent" : 39
+			},
+			{
+				"command" : 9,
+				"file" : 8,
+				"line" : 36,
+				"parent" : 40
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 41
+			},
+			{
+				"file" : 15,
+				"parent" : 42
+			},
+			{
+				"command" : 8,
+				"file" : 15,
+				"line" : 13,
+				"parent" : 43
+			},
+			{
+				"file" : 14,
+				"parent" : 44
+			},
+			{
+				"command" : 11,
+				"file" : 14,
+				"line" : 712,
+				"parent" : 45
+			},
+			{
+				"command" : 6,
+				"file" : 14,
+				"line" : 710,
+				"parent" : 45
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 640,
+				"parent" : 2
+			},
+			{
+				"command" : 6,
+				"file" : 12,
+				"line" : 3004,
+				"parent" : 32
+			},
+			{
+				"command" : 6,
+				"file" : 12,
+				"line" : 2453,
+				"parent" : 32
+			},
+			{
+				"command" : 6,
+				"file" : 12,
+				"line" : 824,
+				"parent" : 32
+			},
+			{
+				"command" : 6,
+				"file" : 12,
+				"line" : 1588,
+				"parent" : 32
+			},
+			{
+				"command" : 6,
+				"file" : 12,
+				"line" : 1520,
+				"parent" : 32
+			},
+			{
+				"command" : 6,
+				"file" : 12,
+				"line" : 507,
+				"parent" : 32
+			},
+			{
+				"command" : 6,
+				"file" : 12,
+				"line" : 1040,
+				"parent" : 32
+			},
+			{
+				"command" : 6,
+				"file" : 12,
+				"line" : 235,
+				"parent" : 32
+			},
+			{
+				"command" : 6,
+				"file" : 12,
+				"line" : 75,
+				"parent" : 32
+			},
+			{
+				"command" : 6,
+				"file" : 12,
+				"line" : 314,
+				"parent" : 32
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 14,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 59,
+					"define" : "FBXSDK_SHARED"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "GLAD_API_CALL_EXPORT"
+				},
+				{
+					"backtrace" : 48,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_OPENGLWIDGETS_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QMLINTEGRATION_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QMLMETA_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QMLMODELS_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QMLWORKERSCRIPT_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QML_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QUICK_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "kiss_fft_scalar=double"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/user/dolls-studio/build/dolls-studio_autogen/include"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "/home/user/dolls-studio/../fbx202037/include"
+				},
+				{
+					"backtrace" : 48,
+					"isSystem" : true,
+					"path" : "/usr/include/qt6/QtCore"
+				},
+				{
+					"backtrace" : 48,
+					"isSystem" : true,
+					"path" : "/usr/include/qt6"
+				},
+				{
+					"backtrace" : 48,
+					"isSystem" : true,
+					"path" : "/usr/lib64/qt6/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/qt6/QtQuick"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/qt6/QtGui"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/qt6/QtQml"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/qt6/QtQmlIntegration"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/qt6/QtNetwork"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/qt6/QtQmlMeta"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/qt6/QtQmlModels"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/qt6/QtQmlWorkerScript"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/qt6/QtOpenGL"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/local/include/vtk-9.5"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/local/include/vtk-9.5/token"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/local/include/vtk-9.5/vtknlohmannjson/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/local/include/vtk-9.5/vtknlohmannjson"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/local/include/vtk-9.5/vtkkissfft"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/local/include/vtk-9.5/vtkglad"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/qt6/QtWidgets"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/qt6/QtOpenGLWidgets"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					48,
+					48
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				4,
+				6,
+				8,
+				10,
+				14
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "dolls-studio_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "dolls-studio_autogen::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "dolls-studio::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/usr/local/lib64:/home/user/dolls-studio/../fbx202037/lib/debug:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/usr/local/lib64/libvtkGUISupportQtQuick-9.5.so.9.5",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/user/dolls-studio/../fbx202037/lib/debug/libfbxsdk.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/usr/lib64/libQt6Quick.so.6.9.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/usr/lib64/libQt6QmlMeta.so.6.9.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "/usr/lib64/libQt6QmlWorkerScript.so.6.9.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/usr/lib64/libQt6QmlModels.so.6.9.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/usr/lib64/libQt6Qml.so.6.9.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 28,
+				"fragment" : "/usr/lib64/libQt6Network.so.6.9.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 33,
+				"fragment" : "/usr/local/lib64/libvtkGUISupportQt-9.5.so.9.5",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 34,
+				"fragment" : "/usr/lib64/libQt6OpenGLWidgets.so.6.9.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/usr/lib64/libQt6OpenGL.so.6.9.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 34,
+				"fragment" : "/usr/lib64/libQt6Widgets.so.6.9.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/usr/lib64/libQt6Gui.so.6.9.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 46,
+				"fragment" : "/usr/lib64/libGLX.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 47,
+				"fragment" : "/usr/lib64/libOpenGL.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 48,
+				"fragment" : "/usr/lib64/libQt6Core.so.6.9.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 34,
+				"fragment" : "/usr/local/lib64/libvtkRenderingOpenGL2-9.5.so.9.5",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 49,
+				"fragment" : "/usr/local/lib64/libvtkRenderingHyperTreeGrid-9.5.so.9.5",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 49,
+				"fragment" : "/usr/local/lib64/libvtkRenderingUI-9.5.so.9.5",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 49,
+				"fragment" : "/usr/local/lib64/libvtkglad-9.5.so.9.5",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 49,
+				"fragment" : "/usr/lib64/libX11.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 34,
+				"fragment" : "/usr/local/lib64/libvtkInteractionWidgets-9.5.so.9.5",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 50,
+				"fragment" : "/usr/local/lib64/libvtkRenderingContext2D-9.5.so.9.5",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 49,
+				"fragment" : "/usr/local/lib64/libvtkIOImage-9.5.so.9.5",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 51,
+				"fragment" : "/usr/local/lib64/libvtkImagingCore-9.5.so.9.5",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 33,
+				"fragment" : "/usr/local/lib64/libvtkRenderingCore-9.5.so.9.5",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/usr/local/lib64/libvtkCommonColor-9.5.so.9.5",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 50,
+				"fragment" : "/usr/local/lib64/libvtkFiltersSources-9.5.so.9.5",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 49,
+				"fragment" : "/usr/local/lib64/libvtkFiltersGeneral-9.5.so.9.5",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 52,
+				"fragment" : "/usr/local/lib64/libvtkFiltersCore-9.5.so.9.5",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 52,
+				"fragment" : "/usr/local/lib64/libvtkCommonExecutionModel-9.5.so.9.5",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 53,
+				"fragment" : "/usr/local/lib64/libvtkCommonDataModel-9.5.so.9.5",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 54,
+				"fragment" : "/usr/local/lib64/libvtkCommonTransforms-9.5.so.9.5",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 55,
+				"fragment" : "/usr/local/lib64/libvtkCommonMisc-9.5.so.9.5",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 54,
+				"fragment" : "/usr/local/lib64/libvtkCommonMath-9.5.so.9.5",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/usr/local/lib64/libvtkCommonCore-9.5.so.9.5",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 56,
+				"fragment" : "/usr/local/lib64/libvtksys-9.5.so.9.5",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 57,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 56,
+				"fragment" : "/usr/local/lib64/libvtktoken-9.5.so.9.5",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 58,
+				"fragment" : "/usr/local/lib64/libvtkkissfft-9.5.so.9.5",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-rpath-link,/usr/local/lib64",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "dolls-studio",
+	"nameOnDisk" : "dolls-studio",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				4,
+				6,
+				8,
+				10,
+				14
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				3,
+				5,
+				7,
+				9,
+				11
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				12,
+				13
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				15,
+				16
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/dolls-studio_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "SdkLoader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "SdkLoader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "MyVtkItem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "MyVtkItem.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "ModelAc.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "ModelAc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "TreeModel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "TreeModel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "TreeItem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "TreeItem.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "qml.qrc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/dolls-studio_autogen/timestamp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/dolls-studio_autogen/EWIEGA46WW/qrc_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/dolls-studio_autogen/timestamp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/dolls-studio_autogen/EWIEGA46WW/qrc_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "EXECUTABLE"
+}

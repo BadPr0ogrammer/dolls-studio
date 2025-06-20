@@ -6,7 +6,8 @@
 #include <QQuickVTKItem.h>
 
 #include "MyVtkItem.h"
-#include "ModelAc.h"
+#include "MyModel.h"
+#include "TreeModel.h"
 
 #include <iostream>
 
@@ -22,8 +23,10 @@ int main(int argc, char* argv[])
 
     qmlRegisterType<MyVtkItem>("MyModule", 1, 0, "MyVtkItem");
     QQmlApplicationEngine engine;
-    ModelAc model;
-    engine.rootContext()->setContextProperty("ModelAc", &model);
+    MyModel myModel;
+    engine.rootContext()->setContextProperty("MyModel", &myModel);
+    TreeModel treeModel;
+    engine.rootContext()->setContextProperty("myTreeModel", &treeModel);
 
     engine.load(QUrl(QStringLiteral("qrc:/main.qml")));
     if (engine.rootObjects().isEmpty()) {
@@ -35,7 +38,7 @@ int main(int argc, char* argv[])
         std::cout << "Find Child \"myVtkItem\" is null!\n";
         return -1;
     }
-    model._vtkItem = (MyVtkItem *)vtk;
+    myModel._vtkItem = (MyVtkItem *)vtk;
 
     return app.exec();
 }

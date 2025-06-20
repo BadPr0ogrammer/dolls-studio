@@ -1,7 +1,7 @@
-#include "ModelAc.h"
+#include "MyModel.h"
 #include "MyVtkItem.h"
 
-void ModelAc::handleFileSelected(const QUrl &fileUrl)
+void MyModel::handleFileSelected(const QUrl &fileUrl)
 {
     delete _vtkItem->_sdkLoader;
     _vtkItem->_sdkLoader = new SdkLoader();

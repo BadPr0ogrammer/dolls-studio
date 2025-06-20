@@ -1,6 +1,7 @@
 import QtQuick
 import QtQuick.Controls
 import QtQuick.Dialogs
+import QtQuick.Layouts
 import MyModule 1.0 as MyModule
 
 ApplicationWindow {
@@ -23,17 +24,28 @@ ApplicationWindow {
       }
     }
   }
-  Rectangle {
+  SplitView {
     anchors.fill: parent
-    anchors.margins: 12
-
-    MyModule.MyVtkItem {
-      objectName: "myVtkItem"
-      anchors.fill: parent
+    orientation: Qt.Horizontal
+    Rectangle {
+      SplitView.minimumWidth: 200
+      SplitView.fillWidth: true
+      SplitView.fillHeight: true
+      MyModule.MyVtkItem {
+        anchors.fill: parent
+        objectName: "myVtkItem"
+      }
+    }
+    TreeView {
+      SplitView.preferredWidth: 200
+      SplitView.maximumWidth: 400
+      SplitView.fillHeight: true
+      model: myTreeModel
+      delegate: TreeViewDelegate {}
     }
   }
   FileDialog {
     id: fileDialog
-    onAccepted: { ModelAc.handleFileSelected(selectedFile) }
+    onAccepted: { MyModel.handleFileSelected(selectedFile) }
   }
 }

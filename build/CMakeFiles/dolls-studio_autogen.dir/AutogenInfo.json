@@ -1149,9 +1149,9 @@
 	"HEADERS" : 
 	[
 		[
-			"/home/user/dolls-studio/ModelAc.h",
+			"/home/user/dolls-studio/MyModel.h",
 			"MU",
-			"EWIEGA46WW/moc_ModelAc.cpp",
+			"EWIEGA46WW/moc_MyModel.cpp",
 			null
 		],
 		[
@@ -1164,6 +1164,18 @@
 			"/home/user/dolls-studio/SdkLoader.h",
 			"MU",
 			"EWIEGA46WW/moc_SdkLoader.cpp",
+			null
+		],
+		[
+			"/home/user/dolls-studio/TreeItem.h",
+			"MU",
+			"EWIEGA46WW/moc_TreeItem.cpp",
+			null
+		],
+		[
+			"/home/user/dolls-studio/TreeModel.h",
+			"MU",
+			"EWIEGA46WW/moc_TreeModel.cpp",
 			null
 		]
 	],
@@ -1258,9 +1270,11 @@
 	"SETTINGS_FILE" : "/home/user/dolls-studio/build/CMakeFiles/dolls-studio_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/user/dolls-studio/ModelAc.cpp", "MU", null ],
+		[ "/home/user/dolls-studio/MyModel.cpp", "MU", null ],
 		[ "/home/user/dolls-studio/MyVtkItem.cpp", "MU", null ],
 		[ "/home/user/dolls-studio/SdkLoader.cpp", "MU", null ],
+		[ "/home/user/dolls-studio/TreeItem.cpp", "MU", null ],
+		[ "/home/user/dolls-studio/TreeModel.cpp", "MU", null ],
 		[ "/home/user/dolls-studio/main.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],

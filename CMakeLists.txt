@@ -29,8 +29,12 @@ set(PROJECT_SOURCES
     SdkLoader.h
     MyVtkItem.cpp
     MyVtkItem.h
-    ModelAc.cpp
-    ModelAc.h
+    MyModel.cpp
+    MyModel.h
+    TreeModel.cpp
+    TreeModel.h
+    TreeItem.cpp
+    TreeItem.h
     qml.qrc)
 
 qt_add_executable(${MYNAME}

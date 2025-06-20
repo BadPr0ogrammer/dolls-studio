@@ -55,7 +55,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 36,
+				"line" : 40,
 				"parent" : 0
 			},
 			{
@@ -79,13 +79,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 53,
+				"line" : 57,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 44,
+				"line" : 48,
 				"parent" : 0
 			},
 			{
@@ -586,7 +586,9 @@
 				2,
 				4,
 				6,
-				10
+				8,
+				10,
+				14
 			]
 		}
 	],
@@ -856,7 +858,9 @@
 				2,
 				4,
 				6,
-				10
+				8,
+				10,
+				14
 			]
 		},
 		{
@@ -865,23 +869,25 @@
 			[
 				3,
 				5,
-				7
+				7,
+				9,
+				11
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				8,
-				9
+				12,
+				13
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				11,
-				12
+				15,
+				16
 			]
 		}
 	],
@@ -925,12 +931,34 @@
 		{
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
-			"path" : "ModelAc.cpp",
+			"path" : "MyModel.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 4,
-			"path" : "ModelAc.h",
+			"path" : "MyModel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "TreeModel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "TreeModel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "TreeItem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "TreeItem.h",
 			"sourceGroupIndex" : 1
 		},
 		{
